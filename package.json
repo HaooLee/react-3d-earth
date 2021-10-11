@@ -3,14 +3,21 @@
   "version": "1.0.2",
   "main": "dist/react-3d-earth.min.js",
   "license": "MIT",
-  "author": "haoolee",
+  "author": "HaooLee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HaooLee/react-3d-earth"
+  },
   "description": "A 3d Earth based on Three.js that mimics github's home page",
   "keywords": [
     "react",
     "3d earth",
     "github 3d earth",
     "webgl",
-    "canvas"
+    "canvas",
+    "globe",
+    "3D",
+    "map"
   ],
   "devDependencies": {
     "@babel/core": "^7.15.8",

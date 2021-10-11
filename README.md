@@ -44,7 +44,7 @@ export const App = () => <div>
 | porp | type | default | 备注 |
 | --- | --- | --- | --- |
 | radius | number | 20 | 地球半径大小 |
-| textureSrc | string | '' | 地图纹理地址  |
+| textureSrc | string | '' | 自定义地图纹理地址  |
 | backgroundColor | string | #040d21 | 背景颜色 |
 | flagScale | number | 1 | 旗子放大倍数 |
 | flagLat | number | 39.56 | 旗子在地球上的纬度 |
@@ -57,7 +57,7 @@ export const App = () => <div>
 
 ## demo
 
-<https:www.haoolee.com>
+<https://www.haoolee.com>
 
 ![earth](earth.jpg)
  

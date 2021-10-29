@@ -1,4 +1,4 @@
-const THREE = require('three');
+import THREE from 'three'
 export default class Earth {
     constructor(t) {
         this.props = t,

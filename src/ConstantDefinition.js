@@ -1,6 +1,4 @@
-const THREE = require('three');
-
-
+import THREE from 'three'
 export const hl = new THREE.Euler(.3, 4.6, .05)
 export const ul = "PR_OPENED"
 export const dl = "PR_MERGED"

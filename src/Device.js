@@ -4,7 +4,6 @@ import Stage from './Stage.js'
 import particleDiffuse  from '../assets/particle-diffuse.png'
 import worldMap  from '../assets/map.png'
 
-
 export default class Device {
   constructor(t) {
     for (let i in t) {
@@ -25,18 +24,6 @@ export default class Device {
       })
     }
     loadAssets() {
-        // const {basePath: t, imagePath: e} = bl
-        //   ,n = [{
-        //     url: `${t}${e}particle-diffuse.png`,
-        //     id: "particleDiffuse"
-        // }, {
-        //     url: `${t}${e}map.png`,
-        //     id: "worldMap"
-        // }];
-        // const i = new ResLoader();
-        // this.assets.textures[t.id] = e
-
-
         const {textureSrc} = bl
         const worldMaploader = new THREE.TextureLoader()
         const particleloader = new THREE.TextureLoader()
@@ -52,18 +39,6 @@ export default class Device {
         })]).then(([particleDiffuse,worldMap])=>{
           return {textures:{particleDiffuse,worldMap}}
         })
-
-
-
-
-        // return new Promise(((t,e)=>{
-        //     i.load(n).then((({assets: e})=>{
-        //         t(e),
-        //         i.dispose()
-        //     }
-        //     )).catch((t=>e(t)))
-        // }
-        // ))
     }
     trackPageVisibility() {
         let t, e;

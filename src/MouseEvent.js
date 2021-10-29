@@ -1,4 +1,5 @@
-const THREE = require('three');
+// const THREE = require('three');
+import THREE from 'three'
 import { bl, _l_pause,_l_resume } from './GlobalData.js'
 import { hl } from './ConstantDefinition.js'
 import { Al,Nl } from './Tool3d.js'

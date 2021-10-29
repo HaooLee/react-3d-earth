@@ -1,4 +1,4 @@
-const THREE = require('three');
+import THREE from 'three'
 import { Ml,Sl } from './ConstantDefinition.js'
 
 

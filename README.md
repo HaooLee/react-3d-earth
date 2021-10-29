@@ -19,7 +19,7 @@ import React3dEarth from 'react-3d-earth'
 export const App = () => <div>
     <React3dEarth
         style={{width: '100%', height: '100vh',position:'absolute',zIndex:'0'}}
-</di>
+</div>
 ```
 or 
 ```$xslt
@@ -28,6 +28,7 @@ export const App = () => <div>
         style={{width: '100%', height: '100vh',position:'absolute',zIndex:'0'}}
         config={{
           // radius: 30,
+          // mobileRadius: 20,
           // backgroundColor: '#fafafa',
           // flagScale:1,
           // flagLat:39.56,
@@ -43,7 +44,8 @@ export const App = () => <div>
 ## config
 | porp | type | default | 备注 |
 | --- | --- | --- | --- |
-| radius | number | 20 | 地球半径大小 |
+| radius | number | 25 | 地球半径大小 |
+| mobileRadius | number | 25 | 在移动端时地球半径大小 |
 | textureSrc | string | '' | 自定义地图纹理地址  |
 | backgroundColor | string | #040d21 | 背景颜色 |
 | flagScale | number | 1 | 旗子放大倍数 |
